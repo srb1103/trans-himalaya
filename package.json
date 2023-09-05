@@ -2,15 +2,16 @@
   "name": "trans-himalayas",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://tht.emezy.in",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "js-cookie": "^3.0.5",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0"
